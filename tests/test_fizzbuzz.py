@@ -63,7 +63,7 @@ def test_works_with_5():
 
 def test_works_with_15():
     # Arrange
-    num = 15
+    num = 16
     expected_answer = [
         "1", 
         "2", 
@@ -79,7 +79,8 @@ def test_works_with_15():
         "Fizz",
         "13",
         "14",
-        "FizzBuzz"
+        "FizzBuzz",
+        "16"
         ]
 
     # Act
